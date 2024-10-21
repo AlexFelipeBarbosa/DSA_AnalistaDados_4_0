@@ -14,18 +14,28 @@ DECLARE
     endereco_aleatorio VARCHAR(255);
     cidade_aleatoria VARCHAR(255);
 
-    lista_cidades TEXT[] := ARRAY['São Paulo', 
-                                  'Rio de Janeiro', 
-                                  'Belo Horizonte', 
-                                  'Vitória', 
-                                  'Porto Alegre', 
-                                  'Salvador', 
-                                  'Blumenau', 
-                                  'Curitiba', 
-                                  'Fortaleza', 
-                                  'Manaus', 
-                                  'Recife', 
-                                  'Goiânia'
+    lista_cidades TEXT[] := ARRAY['São Paulo',
+				'Rio de Janeiro',
+				'Campinas',
+				'Ribeirão Preto',
+				'Franca',
+				'Batatais',
+				'Altinopolis',
+				'Belo Horizonte',
+				'Vitoria',
+				'Porto Alegre',
+				'Fortaleza',
+				'Blumenau',
+				'Salvador',
+				'Porto Seguro',
+				'Pocos de Caldas',
+				'Goiania',
+				'Holambra',
+				'Serra Negra',
+				'Manaus',
+				'Belem',
+				'Aracaju',
+				'Campina Grande'
     ];
 BEGIN
     FOR i IN 1..num_clientes LOOP
