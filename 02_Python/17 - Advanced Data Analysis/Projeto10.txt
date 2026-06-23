@@ -1,0 +1,45 @@
+# Projeto 10 - Advanced Data Analysis com ChatGPT
+
+# Prompts
+
+Carregue o dataset anexo e crie um resumo sobre as variáveis.
+
+Agora verifique se há valores ausentes.
+
+Verifique se há duplicadidade considerando as colunas ["ID Mouse", "Timepoint"].
+
+Crie um sumário estatístico das variáveis numéricas contendo média, mediana, variância e desvio padrão.
+
+Crie um sumário estatístico da variável "Tumor Volume (mm3)" agrupado pela variável "Medicamento".
+
+Imprima o resultado no formato de tabela e salve a tabela como arquivo CSV para que eu possa fazer o download.
+
+Crie um gráfico com o Número de Testes Por Medicamento.
+
+Crie um gráfico com a Média do Volume do Tumor por Faixa Etária. Use estes labels: labels = ['0-6 meses', '6-12 meses', '12-18 meses', '18-24 meses', '24 meses ou mais'].
+
+Crie um resumo demonstrando se há outliers na variável ["Tumor Volume (mm3)"]. Mas preciso disso para cada Medicamento. O resumo deve conter o IQR, limite superior, limite inferior e o número de outliers. Se não houver outliers mostre o número zero.
+
+Repita o relatório anterior, mas agora considere somente o valor máximo da coluna Timepoint para filtrar os dados.
+
+Crie um boxplot com o resultado desse relatório. O boxplot deve mostrar também a média dos dados e as caixas devem estar preenchidas com uma cor para dar contraste com o fundo branco no gráfico.
+
+Crie um gráfico de linha que responda esta pergunta: Com o Uso de Medicamentos Há Efeito no Volume do Tumor ao Longo do Tempo? Considere somente o "ID Mouse" igual a "m000". Quero ver o gráfico com Timepoint no eixo x e "Tumor Volume (mm3)" no eixo y.
+
+Não deveria mostrar um ponto de dado para cada timepoint? Eu acho que você está errado.
+
+Usando regressão linear responda a seguinte pergunta: Para Um dos Medicamentos Qual a Relação Entre Peso da Cobaia e Tamanho do Tumor?. Use o Capomulin como medicamento e considere a média de peso e do tumor. Crie o scatter plot e desenhe a linha de regressão.
+
+Crie um resumo de tudo que encontramos durante esta análise para que eu possa entregar ao meu gestor.
+
+# Link apenas para referência. Veja nas aulas como compartilhar seu chat.
+
+https://chat.openai.com/share/1fd9c3a5-f417-488a-a8b6-f449a24707c3
+
+
+
+
+
+
+
+
